@@ -97,7 +97,6 @@ def logout():
     logout_user()
     return redirect(url_for('authentication_blueprint.login'))
 
-
 # Errors
 
 @login_manager.unauthorized_handler
